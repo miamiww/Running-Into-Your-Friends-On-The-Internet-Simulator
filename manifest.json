@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
-	"name": "Running Into Your Friends On The Internet Simulator 2020",
-	"version": "0.1",
+	"name": "Running Into Friends On The Net Simulator",
+	"version": "0.0.1",
 	"background": {
 	  "scripts": ["background.js"]
 	},
@@ -10,7 +10,7 @@
 		"matches": [
 		  "<all_urls>"
 		],
-		"js": ["redirect.js","content.js"]
+		"js": ["redirect.js"]
 	  }
     ],
     "chrome_url_overrides":{
@@ -20,10 +20,7 @@
 	  "default_icon": "icon.png"
 	},
 	"permissions": [
-		"<all_urls>",
-		"tabs",
-		"webRequest",
-        "webRequestBlocking",
-        "webNavigation"
+		"<all_urls>"
+
 	]
   }

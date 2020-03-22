@@ -6,7 +6,7 @@ function getRandom(max,min) {
 
 var chance = getRandom(100,0);
 
-if(chance>98 && !hasRedirected){
+if(chance>99 && !hasRedirected){
     window.onload = function() {
         window.location.href = "https://meet.jit.si/RunningIntoYourFriendsOnTheInternetSimulator2020";
     }
