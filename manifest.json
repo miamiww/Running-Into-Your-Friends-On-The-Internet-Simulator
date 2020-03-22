@@ -10,11 +10,11 @@
 		"matches": [
 		  "<all_urls>"
 		],
-		"js": ["content.js"]
+		"js": ["redirect.js","content.js"]
 	  }
     ],
     "chrome_url_overrides":{
-        "newtab":"url.txt"
+        "newtab":"main.html"
     },
 	"browser_action": {
 	  "default_icon": "icon.png"
