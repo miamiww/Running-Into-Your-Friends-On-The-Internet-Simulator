@@ -4,9 +4,9 @@ function getRandom(max,min) {
     return Math.random()* (max - min) + min;;
 }
 
-var chance = getRandom(20,0);
+var chance = getRandom(100,0);
 
-if(chance>19 && !hasRedirected){
+if(chance>98 && !hasRedirected){
     window.onload = function() {
         window.location.href = "https://meet.jit.si/RunningIntoYourFriendsOnTheInternetSimulator2020";
     }
